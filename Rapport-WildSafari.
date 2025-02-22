@@ -1,57 +1,68 @@
 # ProjetInfo4
 
 
+Rapport de Projet : Wild Safari 🦁
 
-Rapport de Projet : Wild Safari
 
-1. Description générale du site
+1. Description générale du site 🌍
 Le site Wild Safari est une agence de voyages spécialisée dans les safaris en Afrique. Il propose des séjours préconfigurés avec des circuits déjà définis, mais permet aux utilisateurs de personnaliser certaines options comme l'hébergement, la restauration, les activités et les transports. Le site offre également des fonctionnalités d'inscription, de connexion, de modification des options de voyage et de paiement.
 
 Le site est conçu pour offrir une expérience utilisateur fluide et moderne, avec une interface intuitive et une charte graphique soignée. Les utilisateurs peuvent explorer des destinations africaines populaires, choisir des safaris adaptés à leurs préférences, et réserver leur voyage en quelques clics.
 
 
-2. Répartition des tâches
+2. Répartition des tâches 👥
 Le groupe est composé de trois membres :
 
-Ilyas HAIDAR (50% d'implication) : Responsable de la conception globale du site, de la mise en place de la structure HTML/CSS, et de la gestion des fonctionnalités principales (recherche de voyages, inscription, connexion).
+Ilyas HAIDAR (50% d'implication) :
+Responsable de la conception globale du site, de la mise en place de la structure HTML/CSS, et de la gestion des fonctionnalités principales (recherche de voyages, inscription, connexion).
 
-Myriam BENAMEUR (25% d'implication) : Contribution à la conception graphique, création des pages de présentation et de profil utilisateur, et assistance à la mise en place du CSS.
+Myriam BENAMEUR (25% d'implication) :
+Contribution à la conception graphique, création des pages de présentation et de profil utilisateur, et assistance à la mise en place du CSS.
 
-Abderrahmane Zerrargui (25% d'implication) : Aide à la création des pages de recherche et d'administration, et participation aux tests et débogage.
+Abderrahmane Zerargui (25% d'implication) :
+Aide à la création des pages de recherche et d'administration, et participation aux tests et débogage.
 
-                        
-3. Problèmes rencontrés et solutions:
-- Vidéo trop grande pour GitHub
+
+3. Problèmes rencontrés et solutions 🛠️
+-Vidéo trop grande pour GitHub
 Solution : La vidéo de fond de la page d'accueil était trop volumineuse pour être hébergée sur GitHub. Nous l'avons compressée en utilisant un outil de compression vidéo tout en conservant une qualité acceptable.
 
-- Gestion des conflits de styles CSS
+-Gestion des conflits de styles CSS
 Solution : Nous avons utilisé des classes spécifiques pour chaque section et évité les styles globaux qui pouvaient entrer en conflit. Les outils de développement du navigateur nous ont aidés à déboguer les styles.
 
-- Intégration des polices Google Fonts
+-Intégration des polices Google Fonts
 Solution : Après plusieurs essais, nous avons choisi les polices Poppins pour le texte général et Raleway pour les titres, ce qui a donné un style moderne et cohérent au site.
 
-- Affichage des dates dans les champs de formulaire
+-Affichage des dates dans les champs de formulaire
 Solution : Les champs de date ne s'affichaient pas correctement sur certains navigateurs. Nous avons ajouté des styles spécifiques pour garantir une compatibilité cross-browser.
 
-- Responsivité du site
+-Responsivité du site
 Solution : Le site n'était pas parfaitement responsive au départ. Nous avons ajusté les media queries et les grilles CSS pour assurer une bonne expérience sur tous les appareils (ordinateurs, tablettes, mobiles).
 
-                        
-4. Planning
+
+4. Planning 📅
 Voici un aperçu de la répartition du travail pendant la Phase 1 :
 
-Semaine 1 : Définition du thème du site (Wild Safari) et de la charte graphique. Choix des couleurs et des polices.
+Semaine 1 :
+Définition du thème du site (Wild Safari) et de la charte graphique. Choix des couleurs et des polices.
 
-Semaine 2 : Création des pages HTML de base (accueil, présentation, recherche). Intégration de la vidéo de fond compressée.
+Semaine 2 :
+Création des pages HTML de base (accueil, présentation, recherche). Intégration de la vidéo de fond compressée.
 
-Semaine 3 : Ajout des fonctionnalités de formulaire (inscription, connexion). Résolution des problèmes de compatibilité des champs de date.
+Semaine 3 :
+Ajout des fonctionnalités de formulaire (inscription, connexion). Résolution des problèmes de compatibilité des champs de date.
 
-Semaine 4 : Finalisation des pages de profil et d'administration. Tests de responsivité et débogage final.
+Semaine 4 :
+Finalisation des pages de profil et d'administration. Tests de responsivité et débogage final.
 
 
-5. Conclusion
+5. Conclusion 🎉
 La Phase 1 du projet Wild Safari a été menée à bien avec succès. Nous avons réussi à créer une base solide pour le site, avec une interface utilisateur intuitive et moderne. Les principales fonctionnalités côté client sont opérationnelles, et nous sommes prêts à passer à la Phase 2, qui consistera à développer la partie serveur et à gérer les données des utilisateurs.
 
-Annexes
+Annexes 📎
 Lien vers le dépôt GitHub : https://github.com/Katsoumo/ProjetInfo4
+
+Document de conception : 
+
+
  
