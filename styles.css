@@ -1,4 +1,5 @@
 /* Styles généraux */
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #333;
@@ -11,6 +12,7 @@ h1, h2, h3 {
 }
 
 /* En-tête */
+
 .site-header {
     position: absolute;
     top: 0;
@@ -52,17 +54,18 @@ h1, h2, h3 {
 }
 
 .main-nav ul li a:hover {
-    transform: scale(1.2); /* Agrandit le lien de 10% */
+    transform: scale(1.2); 
 }
 
 /* Empêcher le débordement horizontal */
 html, body {
-    overflow-x: hidden; /* Cache la barre de défilement horizontale */
+    overflow-x: hidden; 
     width: 100%;
     max-width: 100%;
     margin: 0;
     padding: 0;
 }
+
 
 /* Section Hero avec vidéo */
 .hero {
@@ -119,11 +122,6 @@ html, body {
 
 
 
-
-
-
-
-
 /* Section Présentation */
 .presentation {
     padding: 150px 20px 40px 20px; /* padding-top: 150px, padding-right: 20px, padding-bottom: 40px, padding-left: 20px */
@@ -141,6 +139,7 @@ html, body {
     max-width: 800px;
     margin: 0 auto;
 }
+
 
 /* Section Activités */
 .activities {
@@ -183,14 +182,14 @@ html, body {
 .testimonials {
     padding: 40px 20px;
     text-align: center;
-    background-color: #f9f9f9; /* Remplace l'image de fond par une couleur de fond */
-    color: #333; /* Texte en gris foncé pour une meilleure visibilité */
+    background-color: #f9f9f9; 
+    color: #333; 
 }
 
 .testimonials h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
-    color: #333; /* Titre en gris foncé */
+    color: #333; 
 }
 
 .testimonial-grid {
@@ -201,11 +200,11 @@ html, body {
 
 .testimonial-card {
     width: 30%;
-    background-color: #fff; /* Fond blanc */
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #333; /* Texte des cartes en gris foncé */
+    color: #333; 
 }
 
 .testimonial-card p {
@@ -221,7 +220,7 @@ html, body {
 
 /* Pied de page */
 .site-footer {
-    background-color: #FFA64D; /* Orange abricot */
+    background-color: #FFA64D; 
     color: #fff;
     text-align: center;
     padding: 40px 20px;
@@ -258,17 +257,20 @@ html, body {
     margin: 0 auto;
 }
 
-/* Ajustez le padding du header si nécessaire */
 .site-header {
     padding: 10px 20px;
 }
 
-/* Ajustez la taille du texte sous le logo si nécessaire */
 .site-header .logo p {
     font-size: 1rem;
     margin-top: 5px;
     color: #e67e22;
 }
+
+
+
+
+
 /* Section Présentation du site */
 .presentation-section {
     padding: 40px 20px;
@@ -286,6 +288,9 @@ html, body {
     max-width: 800px;
     margin: 0 auto 20px;
 }
+
+
+
 
 /* Section Recherche rapide */
 .quick-search {
@@ -327,13 +332,10 @@ html, body {
     background-color: #d35400;
 }
 
-/* Conteneur vide pour décaler la section de présentation */
 .spacer {
-    height: 150px; /* Ajuste cette valeur si nécessaire */
+    height: 150px; 
     width: 100%;
 }
-
-
 
 
 
@@ -354,7 +356,7 @@ html, body {
     padding: 40px 20px;
     text-align: center;
     background-color: #f9f9f9;
-    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+    margin-top: 200px; 
 }
 
 .search-section h2 {
@@ -368,7 +370,7 @@ html, body {
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espacement entre les champs */
+    gap: 20px; 
 }
 
 .form-group {
@@ -393,7 +395,7 @@ html, body {
 }
 
 .form-group select {
-    appearance: none; /* Supprime le style par défaut du navigateur */
+    appearance: none; 
 }
 
 .cta-button {
@@ -429,7 +431,7 @@ html, body {
     padding: 40px 20px;
     text-align: center;
     background-color: #f9f9f9;
-    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+    margin-top: 200px;
 }
 
 .form-section h2 {
@@ -444,7 +446,7 @@ html, body {
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espacement entre les champs */
+    gap: 20px; 
 }
 
 .form-group {
@@ -498,7 +500,7 @@ html, body {
     padding: 40px 20px;
     text-align: center;
     background-color: #f9f9f9;
-    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+    margin-top: 200px; 
 }
 
 .profile-section h2 {
@@ -521,13 +523,13 @@ html, body {
 .info-group label {
     font-size: 1.2rem;
     margin-right: 10px;
-    width: 100px; /* Largeur fixe pour les labels */
+    width: 100px;
 }
 
 .info-group p {
     font-size: 1.2rem;
     margin: 0;
-    flex-grow: 1; /* Prend tout l'espace disponible */
+    flex-grow: 1; 
 }
 
 .edit-button {
@@ -567,7 +569,7 @@ html, body {
     padding: 40px 20px;
     text-align: center;
     background-color: #f9f9f9;
-    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+    margin-top: 200px; 
 }
 
 .admin-section h2 {
@@ -605,22 +607,22 @@ html, body {
 }
 
 .vip-button {
-    background-color: #ffcc00; /* Jaune pour VIP */
+    background-color: #ffcc00; 
     color: #000;
 }
 
 .vip-button.active {
-    background-color: #e67e22; /* Orange quand actif */
+    background-color: #e67e22; 
     color: #fff;
 }
 
 .ban-button {
-    background-color: #ff4444; /* Rouge pour bannir */
+    background-color: #ff4444; 
     color: #fff;
 }
 
 .ban-button.active {
-    background-color: #cc0000; /* Rouge foncé quand actif */
+    background-color: #cc0000; 
 }
 
 .action-button i {
