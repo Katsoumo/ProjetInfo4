@@ -13,10 +13,10 @@ Bienvenue dans la phase 2 du projet **Click-journeY** ! Cette phase consiste à 
 
 ## 🔗 URLs des pages  
 
-- [Page de connexion](login.php)  
-- [Liste des voyages](trips.php)  
+- [Page de connexion](connexion.php)  
+- [Liste des voyages](voyages.php)  
 - [Profil utilisateur](profile.php)  
-- [Paiement](payment.php)  
+- [Paiement](paiement.php)  
 
 ## 🛠 Comptes de test  
 
