@@ -1,3 +1,11 @@
+<?php
+session_start(); 
+if (!isset($_SESSION['utilisateur'])) {
+    header("Location: connexion.php"); 
+    exit(1);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -5,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wild Safari- Accueil</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Section Hero (bannière principale) -->
@@ -24,19 +32,19 @@
     <!-- En-tête du site -->
     <header class="site-header">
         <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="images/logo.png" alt="Wild Safari Logo" class="logo-image">
             </a>
             <p>Réservation de safaris en Afrique et séjours en pleine nature</p>
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="presentation.html">Présentation</a></li>
                 <li><a href="rechercher.html">Rechercher un voyage</a></li>
-                <li><a href="inscription.html">Inscription</a></li>
-                <li><a href="connexion.html">Connexion</a></li>
-                <li><a href="profil.html">Mon Profil</a></li> 
+                <li><a href="inscription.php">Inscription</a></li>
+                <li><a href="connexion.php">Connexion</a></li>
+                <li><a href="profil.php">Mon Profil</a></li> 
             </ul>
         </nav>
     </header>
