@@ -16,7 +16,7 @@ Bienvenue dans la phase 2 du projet **Click-journeY** ! Cette phase consiste à 
 - [Page de connexion](connexion.php)  
 - [Liste des voyages](voyages.php)  
 - [Profil utilisateur](profil.php)  
-- [Paiement](paiement.php)  
+- [Paiement](paiement.json)  
 
 ## 🛠 Comptes de test  
 
