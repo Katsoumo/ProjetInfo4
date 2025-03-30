@@ -14,7 +14,7 @@ Bienvenue dans la phase 2 du projet **Click-journeY** ! Cette phase consiste à 
 ## 🔗 URLs des pages  
 
 - [Page de connexion](connexion.php)  
-- [Liste des voyages](voyages.php)  
+- [Liste des voyages](rechercher.html)  
 - [Profil utilisateur](profil.php)  
 - [Paiement](paiement.php)  
 
