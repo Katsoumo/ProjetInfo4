@@ -1,0 +1,76 @@
+{
+    "utilisateur": [
+        {
+            "nom": "HAIDAR BOUSTATI",
+            "prenom": "Ilyas",
+            "e-mail": "ilyashaidar6@gmail.com",
+            "motdepasse": "$2y$10$Q9av8UJKzEOBGEUXzxwl1OQ2PCghuQtlvMK0JIcwYEVWJJeWoJv0G"
+        },
+        {
+            "nom": "test",
+            "prenom": "test",
+            "e-mail": "test@test.com",
+            "motdepasse": "$2y$10$61S25cd0rvkQhZpokFCx3e64EKTuvCgkCx5GXudK1ZHkfaYFmA6vq"
+        },
+        {
+            "nom": "sd",
+            "prenom": "sd",
+            "e-mail": "sd@sd.com",
+            "motdepasse": "$2y$10$cs3y3Ls2oo\/4AcT\/E8b82eT2KItIdBS09cNoCwF5FabNU\/bqXfliq"
+        },
+        {
+            "nom": "tst",
+            "prenom": "tst",
+            "e-mail": "tst@gmail.com",
+            "motdepasse": "$2y$10$\/9sVYJe4HloMSAQiEtdFne3j6e8sjtjAqbErYqJnnMRq0E8WteO.q"
+        },
+        {
+            "nom": "h",
+            "prenom": "ilyas",
+            "e-mail": "ilyashaidar7@gmail.com",
+            "motdepasse": "$2y$10$\/kdPtwErMgt6u0bqDeL6J.PL4eY8qcfhn9ok3Bd1qL4uWCnsHpXQK"
+        },
+        {
+            "nom": "Abder",
+            "prenom": "Zer",
+            "e-mail": "laboulette@etudiant.com",
+            "motdepasse": "$2y$10$jwx48HhXCbdjL\/awg1Wyu.wtc6TKBDNLkawO3ONT0PyLEapE1wPJS"
+        },
+        {
+            "nom": "LES",
+            "prenom": "caca",
+            "e-mail": "toz@gmail.com",
+            "motdepasse": "$2y$10$2UQTfpdrQHFRXK1P5rDeb.e1TuE\/TEaU2D2gBKG5ZQJooukjtMluW"
+        },
+        {
+            "nom": "dz",
+            "prenom": "fzq",
+            "e-mail": "ab@oufsdo.com",
+            "motdepasse": "$2y$10$LSrR89BGBYUlQfezX1\/ecufvfUVNwcMIdDFUaEXov0wdkO3lIFw.e"
+        },
+        {
+            "nom": "ifhsoief",
+            "prenom": "qhdozihdj",
+            "e-mail": "dzio@izopfjse.com",
+            "motdepasse": "$2y$10$h9pCju8UjolB\/\/T88azlte\/NzlcZB87YkHTHUspBmqxgtOA2sthOa"
+        },
+        {
+            "nom": "DZ",
+            "prenom": "TFOU",
+            "e-mail": "tfoudz@gmail.com",
+            "motdepasse": "$2y$10$kOvdVfEE\/EW3QFbZEHQeYeo2PWbsBLitA\/GU.EDduo.Zpu0v4Chga"
+        },
+        {
+            "nom": "il",
+            "prenom": "Ilyas",
+            "e-mail": "ilyashaidar12@gmail.com",
+            "motdepasse": "$2y$10$8xKalKgTMBP9HFpccvh9qeGazQ39Cvr9tOIO5SdMvm1q5At\/EGtcW"
+        },
+        {
+            "nom": "il",
+            "prenom": "il",
+            "e-mail": "test500@gmail.com",
+            "motdepasse": "$2y$10$lO\/UkUOWkl5UhJCjRFuJXe.dUzeYkWBNZs9L\/C6hA0Nz9e\/ZDf\/Ua"
+        }
+    ]
+}
