@@ -26,7 +26,7 @@ session_start();
         <div class="hero-content">
             <h2>Explorez la nature sauvage</h2>
             <p>Découvrez des safaris inoubliables au cœur de l'Afrique. Réservez dès maintenant votre aventure !</p>
-            <a href="presentation.html" class="cta-button">Réserver maintenant</a>
+            <a href="presentation.php" class="cta-button">Réserver maintenant</a>
         </div>
     </section>
 
