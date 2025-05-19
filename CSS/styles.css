@@ -1,0 +1,1660 @@
+HEAD
+/* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* En-tête */
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.site-header .logo p {
+    font-size: 1.2rem;
+    font-style: italic;
+} 
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    transform: scale(1.2); /* Agrandit le lien de 10% */
+}
+
+/* Empêcher le débordement horizontal */
+html, body {
+    overflow-x: hidden; /* Cache la barre de défilement horizontale */
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Hero avec vidéo */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Présentation */
+.presentation {
+    padding: 150px 20px 40px 20px; /* padding-top: 150px, padding-right: 20px, padding-bottom: 40px, padding-left: 20px */
+    text-align: center;
+    background-color: #f9f9f9;
+    }
+
+.presentation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* Section Activités */
+.activities {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.activities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.activity-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.activity-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.activity-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.activity-card p {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Section Témoignages */
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Remplace l'image de fond par une couleur de fond */
+    color: #333; /* Texte en gris foncé pour une meilleure visibilité */
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; /* Titre en gris foncé */
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    width: 30%;
+    background-color: #fff; /* Fond blanc */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; /* Texte des cartes en gris foncé */
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+.site-footer {
+    background-color: #FFA64D; /* Orange abricot */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+
+
+
+
+/* Styles pour le logo */
+.logo-image {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajustez le padding du header si nécessaire */
+.site-header {
+    padding: 10px 20px;
+}
+
+/* Ajustez la taille du texte sous le logo si nécessaire */
+.site-header .logo p {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #e67e22;
+}
+
+
+
+
+
+
+/* Section Présentation du site */
+.presentation-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.presentation-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.presentation-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Section Recherche rapide */
+.quick-search {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.quick-search h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-form button:hover {
+    background-color: #d35400;
+}
+
+/* Conteneur vide pour décaler la section de présentation */
+.spacer {
+    height: 150px; /* Ajuste cette valeur si nécessaire */
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Recherche de voyages */
+.search-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+}
+
+.search-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacement entre les champs */
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+}
+
+.form-group select {
+    appearance: none; /* Supprime le style par défaut du navigateur */
+}
+
+.cta-button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Formulaire (inscription et connexion) */
+.form-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+}
+
+.form-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.inscription-form,
+.connexion-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacement entre les champs */
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+}
+
+.form-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.form-link a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Profil Utilisateur */
+.profile-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+}
+
+.profile-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-group label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    width: 100px; /* Largeur fixe pour les labels */
+}
+
+.info-group p {
+    font-size: 1.2rem;
+    margin: 0;
+    flex-grow: 1; /* Prend tout l'espace disponible */
+}
+
+.edit-button {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #d35400;
+}
+
+.edit-button i {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Administration */
+.admin-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; /* Ajuste cette valeur si nécessaire */
+}
+
+.admin-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.user-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.action-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.vip-button {
+    background-color: #ffcc00; /* Jaune pour VIP */
+    color: #000;
+}
+
+.vip-button.active {
+    background-color: #e67e22; /* Orange quand actif */
+    color: #fff;
+}
+
+.ban-button {
+    background-color: #ff4444; /* Rouge pour bannir */
+    color: #fff;
+}
+
+.ban-button.active {
+    background-color: #cc0000; /* Rouge foncé quand actif */
+}
+
+.action-button i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Styles généraux */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', serif;
+}
+
+/* En-tête */
+
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.site-header .logo p {
+    font-size: 1.2rem;
+    font-style: italic;
+} 
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    transform: scale(1.2); 
+}
+
+/* Empêcher le débordement horizontal */
+html, body {
+    overflow-x: hidden; 
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section Hero avec vidéo */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
+
+
+
+
+
+
+
+
+
+
+/* Section Présentation */
+.presentation {
+    padding: 150px 20px 40px 20px; /* padding-top: 150px, padding-right: 20px, padding-bottom: 40px, padding-left: 20px */
+    text-align: center;
+    background-color: #f9f9f9;
+    }
+
+.presentation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Section Activités */
+.activities {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.activities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.activity-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.activity-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.activity-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.activity-card p {
+    font-size: 1rem;
+}
+
+/* Section Témoignages */
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; 
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+.site-footer {
+    background-color: #FFA64D; 
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Styles pour le logo */
+.logo-image {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.site-header {
+    padding: 10px 20px;
+}
+
+.site-header .logo p {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #e67e22;
+}
+
+
+
+
+
+/* Section Présentation du site */
+.presentation-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.presentation-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.presentation-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+
+
+
+/* Section Recherche rapide */
+.quick-search {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.quick-search h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-form button:hover {
+    background-color: #d35400;
+}
+
+.spacer {
+    height: 150px; 
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Recherche de voyages */
+.search-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; 
+}
+
+.search-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+}
+
+.form-group select {
+    appearance: none; 
+}
+
+.cta-button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
+
+.help-text {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Formulaire (inscription et connexion) */
+.form-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px;
+}
+
+.form-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.inscription-form,
+.connexion-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+}
+
+.form-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.form-link a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Profil Utilisateur */
+.profile-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; 
+}
+
+.profile-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-group label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.info-group p {
+    font-size: 1.2rem;
+    margin: 0;
+    flex-grow: 1; 
+}
+
+.edit-button {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #d35400;
+}
+
+.edit-button i {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Administration */
+.admin-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 200px; 
+}
+
+.admin-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.user-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.action-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.vip-button {
+    background-color: #ffcc00; 
+    color: #000;
+}
+
+.vip-button.active {
+    background-color: #e67e22; 
+    color: #fff;
+}
+
+.ban-button {
+    background-color: #ff4444; 
+    color: #fff;
+}
+
+.ban-button.active {
+    background-color: #cc0000; 
+}
+
+.action-button i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Thèmes CSS - Mode clair/sombre */
+body.light-mode {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.dark-mode .site-footer,
+.dark-mode .testimonials,
+.dark-mode .presentation,
+.dark-mode .form-section,
+.dark-mode .profile-section,
+.dark-mode .admin-section {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+}
+
+.dark-mode .testimonial-card {
+    background-color: #3d3d3d;
+    color: #f0f0f0;
+}
+
+/* Bouton de changement de thème */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+/* Correction spécifique pour le mode nuit */
+.dark-mode .presentation,
+.dark-mode .search-section {
+    background-color: #1a1a1a !important; /* Fond noir */
+    color: #f0f0f0 !important; /* Texte clair */
+}
+
+.dark-mode .presentation-section,
+.dark-mode .quick-search {
+    background-color: transparent !important; /* Supprime le fond blanc */
+}
+
+
+
+
+
+
+
+.price-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.dark-mode .price-summary {
+    background-color: #2d2d2d;
+}
+.search-form select {
+    transition: all 0.3s ease; /* Animation fluide */
+}
+
+
+
+
+.montant-readonly {
+    width: 100%;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e67e22;
+}
+.dark-mode .montant-readonly {
+    background-color: #2d2d2d;
+    border-color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles pour les résultats de recherche */
+.results-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sort-select {
+    padding: 8px 12px;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.trip-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.trip-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.trip-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.trip-card:hover .trip-image img {
+    transform: scale(1.05);
+}
+
+.price-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #e67e22;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.trip-details {
+    padding: 20px;
+}
+
+.trip-details h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.trip-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.trip-meta i {
+    margin-right: 5px;
+    color: #e67e22;
+}
+
+.trip-options {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.trip-options i {
+    margin-right: 5px;
+    color: #e67e22;
+}
+
+.trip-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.details-button, .book-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-button {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.details-button:hover {
+    background-color: #e1e1e1;
+}
+
+.book-button {
+    background-color: #e67e22;
+    color: white;
+}
+
+.book-button:hover {
+    background-color: #d35400;
+}
+
+/* Styles pour le mode sombre */
+.dark-mode .trip-card {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .trip-details h3 {
+    color: #f0f0f0;
+}
+
+.dark-mode .trip-meta,
+.dark-mode .trip-options {
+    color: #ccc;
+}
+
+.dark-mode .details-button {
+    background-color: #3d3d3d;
+    color: #f0f0f0;
+}
+
+.dark-mode .details-button:hover {
+    background-color: #4d4d4d;
+}
+
+
+
+
+
+
+
+
+
+
+/* Styles pour le prix estimé */
+.price-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.price-summary h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#price-display {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Message aucun résultat */
+.no-results {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.no-results p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Styles pour le mode sombre */
+.dark-mode .price-summary {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .no-results {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+}
+
+
+
+
+
+.add-to-cart-button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.add-to-cart-button:hover {
+    background-color: #d35400;
+}
+
+.add-to-cart-button i {
+    margin-right: 5px;
+}
+
+
