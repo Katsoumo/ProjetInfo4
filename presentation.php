@@ -16,7 +16,7 @@ session_start();
     <!-- En-tête du site -->
     <header class="site-header">
         <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="images/logo.png" alt="Wild Safari Logo" class="logo-image">
             </a>
             <p>Réservation de safaris en Afrique et séjours en pleine nature</p>
@@ -57,7 +57,7 @@ session_start();
     <!-- Section Recherche rapide -->
     <section class="quick-search">
         <h2>Rechercher un voyage</h2>
-        <form action="rechercher.html" method="GET" class="search-form">
+        <form action="rechercher.php" method="GET" class="search-form">
             <input type="text" name="query" placeholder="Rechercher un voyage..." required>
             <button type="submit">🔍</button>
         </form>
